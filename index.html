@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Retro Garden Exploration Game</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background-color: #ffffff;
+    }
+
+    #game-canvas {
+      display: block;
+      margin: 0 auto;
+      background-color: #79be82;
+    }
+
+    #game-info {
+      color: #000000;
+      font-size: 14px;
+      padding: 10px;
+    }
+  </style>
+</head>
+
+<body>
+  <canvas id="game-canvas" width="320" height="240"></canvas>
+  <div id="game-info">
+    <p>Collect as many yellow flowers to win the game.</p>
+    <p>Player 1 (Arrow Keys) is the red icon.</p>
+    <p>Player 2 (WASD) is the blue icon.</p>
+    <p>As soon as the 2 minute timer runs out,</p>
+    <p>the game will announce the winner or if it's a draw.</p>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
